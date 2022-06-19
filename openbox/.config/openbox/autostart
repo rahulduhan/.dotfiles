@@ -1,0 +1,21 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#mpd stuff
+[ ! -s ~/.config/mpd/pid ] && mpd &
+
+#compositor 
+picom &
+
+## Full screen
+xrandr -s 1920x1080 &
+
+## set wallpaper 
+wall &
+
+## Launch Polybar 
+bash ~/.config/openbox/polybar/launch.sh &
+
+## Noification Daemon
+exec dunst &
