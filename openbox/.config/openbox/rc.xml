@@ -582,7 +582,7 @@
     <!-- Apps -->
     <keybind key="C-A-w">
       <action name="Execute">
-        <command>wall</command>
+        <command>$HOME/.local/bin/wall</command>
       </action>
     </keybind>
     <keybind key="W-Return">
