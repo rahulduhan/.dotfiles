@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> -->
-<!-- Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 -->
 <!DOCTYPE menu [
-  <!ENTITY icons "/usr/share/mystuff/openbox/icons">
-  <!ENTITY pipes "/usr/share/mystuff/openbox/pipemenus">
+<!ENTITY icons "$HOME/.local/share/openbox/icons">
+  <!ENTITY pipes "$HOME/.local/share/openbox/pipes">
 ]>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
   <menu id="root-menu" title="Menu" label="Openbox 3">
