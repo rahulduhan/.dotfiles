@@ -13,3 +13,6 @@ sh ~/.config/openbox/polybar/launch.sh &
 
 # Set Wallpaper
 sh $HOME/.local/bin/wall 
+
+# Notfication daemon
+dunst &
