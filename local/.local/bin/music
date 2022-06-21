@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+## Run ncmpcpp with alternate config
+
+if [[ "$DESKTOP_SESSION" == "bspwm" ]]; then
+	CONFIG="$HOME/.config/bspwm/alacritty/alacritty.yml"
+else
+	CONFIG="$HOME/.config/alacritty/alacritty.yml"
+fi
+
+alacritty --class 'Music,Music' --config-file "$CONFIG" -o window.dimensions.columns=109 window.dimensions.lines=22 -e ~/.ncmpcpp/scripts/ncmpcpp-art
+
