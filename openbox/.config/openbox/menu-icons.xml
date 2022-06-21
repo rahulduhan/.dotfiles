@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE menu [
 <!ENTITY icons "$HOME/.local/share/openbox/icons">
-  <!ENTITY pipes "$HOME/.local/share/openbox/pipes">
+<!ENTITY pipes "$HOME/.local/share/openbox/pipes">
 ]>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
   <menu id="root-menu" title="Menu" label="Openbox 3">
@@ -34,45 +34,33 @@
 		<separator/>
 		<menu icon="&icons;/apps.png" id="app-menu" execute="obmenu-generator" label="Applications"/>
 		<separator/>
-		<menu icon="&icons;/cmd.png" id="quick-commands" label="Quick CMDs">
-			<separator label="Quick Commands"/>
-			<menu id="PacmanPipeMenu" execute="&pipes;/ac-pacman" label="Package Management"/>
-			<menu id="FilesPipeMenu" execute="&pipes;/ac-files" label="Files &amp; Directories"/>
-			<menu id="SysdPipeMenu" execute="&pipes;/ac-systemd" label="Systemd &amp; Services"/>
-		</menu>
-		<separator/>
 		<menu icon="&icons;/shots.png" id="ac-shots" execute="&pipes;/ac-shots" label="Screenshot"/>
 		<separator/>
 		<menu icon="&icons;/record.png" id="ac-record" execute="&pipes;/ac-record" label="Screen Recorder"/>
 		<separator/>
-		<separator/>
-		<separator/>
-		<menu icon="&icons;/places.png" id="ac-places" execute="&pipes;/ac-places --recent ~/" label="Places"/>
-		<separator/>
-		<menu icon="&icons;/recents.png" id="ac-recent" execute="&pipes;/ac-recent-files" label="Recent Files"/>
 		<separator/>
 		<menu icon="&icons;/settings.png" id="preferences" label="Preferences">
 			<menu id="obconfig" label="Openbox">
 				<menu id="ac-ob-menu" execute="&pipes;/ac-ob-menu" label="Menu Style"/>
 				<item label="Settings">
 					<action name="Execute">
-						<command>obconf</command>
+						<command>lxappearance</command>
 					</action>
 				</item>
 				<separator/>
 				<item label="Edit menu.xml">
 					<action name="Execute">
-						<command>exo-open ~/.config/openbox/menu-icons.xml</command>
+						<command>alacritty -e nvim ~/.config/openbox/menu-icons.xml</command>
 					</action>
 				</item>
 				<item label="Edit rc.xml">
 					<action name="Execute">
-						<command>exo-open ~/.config/openbox/rc.xml</command>
+						<command>alacritty -e nvim ~/.config/openbox/rc.xml</command>
 					</action>
 				</item>
 				<item label="Edit autostart">
 					<action name="Execute">
-						<command>exo-open ~/.config/openbox/autostart</command>
+						<command>alacritty -e nvim ~/.config/openbox/autostart</command>
 					</action>
 				</item>
 				<separator/>
@@ -84,50 +72,10 @@
 				</item>
 			</menu>
 			<menu id="CompositingPipeMenu" execute="&pipes;/ac-compositor" label="Compositor"/>
-			<menu id="XrandrPipeMenu" execute="&pipes;/ac-randr" label="Display / Monitor"/>
 			<separator/>
-			<menu id="StylePipeMenu" execute="&pipes;/ac-change-style" label="Change Style"/>
-			<menu id="FontPipeMenu" execute="&pipes;/ac-change-fonts" label="Change Font"/>
-			<menu id="LauncherPipeMenu" execute="&pipes;/ac-change-launcher" label="Change Launcher"/>
-			<menu id="PmenuPipeMenu" execute="&pipes;/ac-change-powermenu" label="Change Powermenu"/>
-			<menu id="PolybarPipeMenu" execute="&pipes;/ac-change-polybar" label="Change Polybar Theme"/>
-			<menu id="SchemePipeMenu" execute="&pipes;/ac-change-scheme" label="Terminal Color Scheme"/>
-			<separator/>
-			<menu id="CanvasPipeMenu" execute="&pipes;/ac-canvas" label="Generate Wallpaper"/>
 			<item label="Change Wallpaper">
 				<action name="Execute">
-					<command>wall</command>
-				</action>
-			</item>
-			<item label="Appearance Settings">
-				<action name="Execute">
-					<command>xfce4-appearance-settings</command>
-				</action>
-			</item>
-			<item label="QT5 Settings">
-				<action name="Execute">
-					<command>qt5ct</command>
-				</action>
-			</item>
-			<item label="Kvantum Manager">
-				<action name="Execute">
-					<command>kvantummanager</command>
-				</action>
-			</item>
-			<separator/>
-			<item label="Power Settings">
-				<action name="Execute">
-					<command>xfce4-power-manager-settings</command>
-				</action>
-			</item>
-			<item label="Audio Settings">
-				<action name="Execute">
-					<command>pavucontrol</command>
-				</action>
-			</item>
-			<item label="Settings Manager">
-				<action name="Execute">
-					<command>xfce4-settings-manager</command>
+                                  <command>sh ~/.local/bin/wall</command>
 				</action>
 			</item>
 		</menu>
@@ -142,33 +90,7 @@
 			</action>
 		</item>
 		<separator/>
-		<menu icon="&icons;/sys-poweroff.png" id="Exit" label="System">
-				<menu icon="&icons;/stats.png" id="SystemPipeMenu" execute="&pipes;/ac-sysinfo" label="Stats"/>
-				<separator/>
-				<item icon="&icons;/sys-exit.png" label="Logout">
-					<action name="Execute">
-						<command>/usr/share/archcraft/openbox/pipemenus/ac-powermenu --logout</command>
-					</action>
-				</item>
-				<separator/>
-				<item icon="&icons;/sys-sleep.png" label="Suspend">
-					<action name="Execute">
-						<command>/usr/share/archcraft/openbox/pipemenus/ac-powermenu --suspent</command>
-					</action>
-				</item>
-				<separator/>
-				<item icon="&icons;/sys-reboot.png" label="Reboot">
-					<action name="Execute">
-						<command>/usr/share/archcraft/openbox/pipemenus/ac-powermenu --reboot</command>
-					</action>
-				</item>
-				<separator/>
-				<item icon="&icons;/sys-poweroff-alt.png" label="Shutdown">
-					<action name="Execute">
-						<command>/usr/share/archcraft/openbox/pipemenus/ac-powermenu --shutdown</command>
-					</action>
-				</item>
-		</menu>
+	      	<menu icon="&icons;/stats.png" id="SystemPipeMenu" execute="&pipes;/ac-sysinfo" label="Stats"/>
 	</menu>
 </openbox_menu>
 <!-- vim:sw=2

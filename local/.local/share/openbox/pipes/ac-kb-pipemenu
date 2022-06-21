@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-
 ## Openbox Pipemenu for displaying keybinds
 
-readonly KBSCRIPTDIR="/usr/share/archcraft/openbox/pipemenus"
+readonly KBSCRIPTDIR="$HOME/.local/share/openbox/pipes"
 readonly KBSCRIPT="$KBSCRIPTDIR/ac-kb"
 readonly CFG_DIR="$HOME/.config/openbox"
 readonly RCPATH="$CFG_DIR/rc.xml"
@@ -28,8 +25,8 @@ case "$@" in
 esac
 
 # Variables and functions
-MENUS_LIBDIR='/usr/share/archcraft/openbox/menulib'
-if ! . "$MENUS_LIBDIR/archcraft.cfg" 2> /dev/null; then
+MENUS_LIBDIR='$HOME/.local/share/openbox/menulib'
+if ! . "$MENUS_LIBDIR/openbox.cfg" 2> /dev/null; then
 	echo "Error: Failed to locate archcraft.cfg in $MENUS_LIBDIR" >&2
 	exit 1
 fi
@@ -80,7 +77,7 @@ menuStart
     menuItem "Backup and Edit rc.xml" "$KBSCRIPTDIR/ac-kb-pipemenu --rcedit"
     menuSeparator
     menuItem "Display Keybinds in window" "$KBSCRIPTDIR/ac-kb --gui"
-    echo '        <menu execute="/usr/share/archcraft/openbox/pipemenus/ac-kb-pipemenu --keybinds" id="Display keybinds" label="Display Keybinds in menu"/>'
+    echo '        <menu execute="$HOME/.local/share/openbox/pipes/ac-kb-pipemenu --keybinds" id="Display keybinds" label="Display Keybinds in menu"/>'
 menuEnd
 
 exit 0

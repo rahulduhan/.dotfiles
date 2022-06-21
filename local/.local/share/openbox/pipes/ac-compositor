@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-
 ## Openbox Pipemenu For Picom Compositor
 
 # User's config dir
 dir="$HOME/.config/"
 
 # Variables and functions
-MENUS_LIBDIR='/usr/share/archcraft/openbox/menulib'
-if ! . "$MENUS_LIBDIR/archcraft.cfg" 2> /dev/null; then
-	echo "Error: Failed to locate archcraft.cfg in $MENUS_LIBDIR" >&2
+MENUS_LIBDIR='$HOME/.local/share/openbox/menulib'
+if ! . "$MENUS_LIBDIR/openbox.cfg" 2> /dev/null; then
+	echo "Error: Failed to locate openbox.cfg in $MENUS_LIBDIR" >&2
 	exit 1
 fi
 
@@ -60,43 +57,9 @@ forcekill_picom() {
     done
 }
 
-##-- Edit config ---------------------
-if [[ $1 = '--edit' ]]; then # Edit picom settings
-    if ! [ -e "$HOME/.config/picom.conf" ]; then
-        cp '/etc/skel/.config/picom.conf' "$HOME/.config/picom.conf"
-    fi
-    if hash exo-open &>/dev/null; then
-        exo-open "$HOME/.config/picom.conf"
-    else
-        geany "$HOME/.config/picom.conf"
-    fi
-
-elif [[ $1 = '--start' ]]; then
-    if ! [[ $(pidof picom) ]]; then
-        $EXECXCOMP
-    else
-        echo "$0 --start: picom already running" && exit 1
-    fi
-
-elif [[ $1 = '--stop' ]]; then
-    forcekill_picom
-
-elif [[ $1 = '--restart' ]]; then
-    if [[ $(pidof picom) ]]; then
-        forcekill_picom
-        "$0" --start
-    else # nothing to restart
-        echo "$0 --restart: picom is not running" && exit 1
-    fi
-
-elif [[ $1 = '--watch' ]]; then
-    while inotifywait -e close_write "$HOME/.config/picom.conf"; do
-        "$0" --restart
-    done
-
 ##-- backend ------------------
 
-elif [[ $1 = '--use-glx' ]]; then
+if [[ $1 = '--use-glx' ]]; then
 	sed -i -e "s/backend = .*/backend = \"glx\";/g" $dir/picom.conf
 
 elif [[ $1 = '--use-xrender' ]]; then
