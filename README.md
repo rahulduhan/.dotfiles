@@ -1,2 +1,2 @@
 # .dotfiles
-my arch linux configs
+https://dotfiles.github.io/images/dotfiles-logo.png
