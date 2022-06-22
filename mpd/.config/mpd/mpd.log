@@ -1,0 +1,43 @@
+Jun 23 00:22 : exception: Failed to open '/home/xdrd/.config/mpd/mpdstate': No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:23 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:24 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:26 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:28 : update: added /anthem-of-victory-111206.mp3
+Jun 23 00:28 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:28 : exception: Failed to open /home/xdrd/.config/mpd/playlists: No such file or directory
+Jun 23 00:28 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Jun 23 00:29 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Jun 23 00:29 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 00:29 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Jun 23 00:29 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Jun 23 00:31 : player: played "anthem-of-victory-111206.mp3"

@@ -13,3 +13,5 @@
 	c = clone
 [color]
 	ui = auto
+[credential]
+	helper = cache
