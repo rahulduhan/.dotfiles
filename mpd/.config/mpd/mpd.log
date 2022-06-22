@@ -41,3 +41,6 @@ Jun 23 00:29 : player: played "anthem-of-victory-111206.mp3"
 Jun 23 00:29 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
 Jun 23 00:29 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
 Jun 23 00:31 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 00:33 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 00:43 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 01:00 : player: played "anthem-of-victory-111206.mp3"

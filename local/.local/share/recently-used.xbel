@@ -43,4 +43,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/xdrd/.config/ncmpcpp/scripts/music.jpg" added="2022-06-22T19:27:49.448170Z" modified="2022-06-22T19:27:49.448176Z" visited="2022-06-22T19:27:49.448171Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;librewolf %u&apos;" modified="2022-06-22T19:27:49.448174Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
