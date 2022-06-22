@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/xdrd/Downloads/JetBrains%20Mono%20Bold%20Nerd%20Font%20Complete.ttf" added="2022-06-22T04:41:50.231450Z" modified="2022-06-22T04:48:28.559942Z" visited="2022-06-22T04:41:50.231452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;librewolf %u&apos;" modified="2022-06-22T04:48:28.559937Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xdrd/.fonts/Iosevka%20Bold%20Nerd%20Font%20Complete.ttf" added="2022-06-22T04:51:51.802467Z" modified="2022-06-22T04:51:51.802509Z" visited="2022-06-22T04:51:51.802494Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;librewolf %u&apos;" modified="2022-06-22T04:51:51.802502Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xdrd/Downloads/librewolf_backup.tar.gz" added="2022-06-22T16:49:47.133201Z" modified="2022-06-22T16:49:47.133209Z" visited="2022-06-22T16:49:47.133203Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;librewolf %u&apos;" modified="2022-06-22T16:49:47.133206Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xdrd/Downloads/wallpaper..zip" added="2022-06-22T16:55:25.414306Z" modified="2022-06-22T16:55:25.414320Z" visited="2022-06-22T16:55:25.414308Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;librewolf %u&apos;" modified="2022-06-22T16:55:25.414313Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
