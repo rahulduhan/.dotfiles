@@ -26,10 +26,9 @@
 		<separator/>
 		<item icon="&icons;/editor.png" label="Text Editor">
 			<action name="Execute">
-				<command>nvim</command>
+				<command>alacritty -e nvim</command>
 			</action>
 		</item>
-		<separator/>
 		<separator/>
 		<separator/>
 		<menu icon="&icons;/apps.png" id="app-menu" execute="obmenu-generator" label="Applications"/>

@@ -1,5 +1,0 @@
-nvim/.config/nvim/.git*
-ssh/.config/ssh/ssh_key*
-walls/.walls/*
-mpd/.config/mpd/mpd.log
-ncmpcpp/.ncmpcpp/error.log
