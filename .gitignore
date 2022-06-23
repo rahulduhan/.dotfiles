@@ -1,6 +1,5 @@
 ncmpcpp/.ncmpcpp/error.log
-walls/.walls/*
+walls/.walls/*.jpg
 local/.local/share/nvim/*
 local/.local/share/xorg/*
 mpd/.config/mpd/mpd.log
-mpd/.config/mpd/mpdstate
