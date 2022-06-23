@@ -1,4 +1,4 @@
 {
- "restore.stream.Output/Audio.media.role:Music": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+ "restore.stream.Output/Audio.media.role:Music": { "volume": 1.000000, "mute": false, "volumes": [ 0.512006, 0.512006 ], "channels": [ "FL", "FR" ] },
  "restore.stream.Output/Audio.application.name:LibreWolf": { "volume": 1.000000, "mute": false, "volumes": [ 0.000000, 0.000000 ], "channels": [ "FL", "FR" ] }
 }
