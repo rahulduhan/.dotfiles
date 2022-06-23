@@ -1,0 +1,4 @@
+mpd/.config/mpd/mpd.log 
+ncmpcpp/.ncmpcpp/error.log
+walls/.walls/*
+local/.local/share/nvim/*

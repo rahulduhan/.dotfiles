@@ -81,3 +81,13 @@ Jun 23 09:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 Jun 23 09:34 : player: played "Aashiq Awaara - Badshah.mp4"
 Jun 23 09:34 : output: Failed to play on "pulse audio" (pulse): disconnected
 Jun 23 09:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 23 10:05 : player: played "Aashiq Awaara - Badshah.mp4"
+Jun 23 10:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 23 10:09 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 10:13 : player: played "Aashiq Awaara - Badshah.mp4"
+Jun 23 10:17 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 23 10:17 : player: played "anthem-of-victory-111206.mp3"
+Jun 23 10:19 : output: Failed to play on "pulse audio" (pulse): disconnected
+Jun 23 10:19 : player: played "Aashiq Awaara - Badshah.mp4"
+Jun 23 10:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Jun 23 10:22 : player: played "Aashiq Awaara - Badshah.mp4"
