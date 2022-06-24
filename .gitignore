@@ -4,3 +4,4 @@ local/.local/share/nvim/*
 local/.local/share/xorg/*
 mpd/.config/mpd/mpd.log
 mpd/.config/mpd/mpdstate
+local/.local/state/*
