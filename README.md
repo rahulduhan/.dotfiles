@@ -4,7 +4,7 @@
 `UNDER DEVELOPMENT`
 
 ## TO DO 
-- [ ] Fix ncmpcpp polybar widget
+- [x] Fix ncmpcpp polybar widget
 - [ ] Implement proper obmenu
 - [ ] Add all the keybinds
 - [ ] Make Window rules
