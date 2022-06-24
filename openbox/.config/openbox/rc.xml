@@ -494,12 +494,12 @@
     <!-- Media Controls-->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>volume --inc</command>
+        <command>volume up</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>volume --dec</command>
+        <command>volume down</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
