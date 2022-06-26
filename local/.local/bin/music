@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-## Run ncmpcpp with alternate config
-
-alacritty --class 'Music,Music' -o window.dimensions.columns=109 window.dimensions.lines=22 -e ~/.config/ncmpcpp/scripts/ncmpcpp-art
