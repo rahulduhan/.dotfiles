@@ -491,93 +491,6 @@
     <keybind key="W-S-Right">
       <action name="SendToDesktopRight"/>
     </keybind>
-    <!-- Media Controls-->
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>volume up</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>volume down</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <command>volume toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioStop">
-      <action name="Execute">
-        <command>mpc stop</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioPlay">
-      <action name="Execute">
-        <command>mpc toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioPrev">
-      <action name="Execute">
-        <command>mpc prev</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioNext">
-      <action name="Execute">
-        <command>mpc next</command>
-      </action>
-    </keybind>
-    <!-- Brightness Control -->
-    <keybind key="XF86MonBrightnessUp">
-      <action name="Execute">
-        <command>brightness --inc</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessDown">
-      <action name="Execute">
-        <command>brightness --dec</command>
-      </action>
-    </keybind>
-    <!-- Screenshot Keys -->
-    <keybind key="Print">
-      <action name="Execute">
-        <command>takeshot --now</command>
-      </action>
-    </keybind>
-    <keybind key="A-Print">
-      <action name="Execute">
-        <command>takeshot --in5</command>
-      </action>
-    </keybind>
-    <keybind key="S-Print">
-      <action name="Execute">
-        <command>takeshot --in10</command>
-      </action>
-    </keybind>
-    <keybind key="C-Print">
-      <action name="Execute">
-        <command>takeshot --win</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-Print">
-      <action name="Execute">
-        <command>takeshot --area</command>
-      </action>
-    </keybind>
-    <!-- Keybindings for windows -->
-    <keybind key="A-F4">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
-    </keybind>
-    <keybind key="A-space">
-      <action name="ShowMenu">
-        <menu>client-menu</menu>
-      </action>
-    </keybind>
     <!-- ################################ Launch Applications ################################ -->
     <!-- Apps -->
     <keybind key="C-A-w">
@@ -590,11 +503,11 @@
     <!--     <command>alacritty</command> -->
     <!--   </action> -->
     <!-- </keybind> -->
-    <keybind key="W-f">
-      <action name="Execute">
-        <command>pcmanfm</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="W-f"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>pcmanfm</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <keybind key="W-w">
       <action name="Execute">
         <command>librewolf</command>
