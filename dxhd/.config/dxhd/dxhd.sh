@@ -12,6 +12,18 @@ $TERMINAL
 #super + f
 pcmanfm
 
+## Browser
+#super + w
+$BROWSER
+
+## Editor
+#super + e
+$TERMINAL -e $EDITOR
+
+## App Launcher
+#super 
+$HOME/.config/openbox/rofi/bin/launcher
+
 ### Media Controls
 
 ## Increase Volume
