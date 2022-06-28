@@ -20,9 +20,19 @@ $BROWSER
 #super + e
 $TERMINAL -e $EDITOR
 
+### Rofi 
+
 ## App Launcher
-#super 
+# alt + F1
 $HOME/.config/openbox/rofi/bin/launcher
+
+## Network Manager
+# super + n
+$HOME/.config/openbox/rofi/bin/network
+
+## Screenshot Manager
+# super + s
+$HOME/.config/openbox/rofi/bin/screenshot
 
 ### Media Controls
 

@@ -606,16 +606,16 @@
       </action>
     </keybind>
     <!-- Rofi -->
-    <keybind key="A-F1">
-      <action name="Execute">
-        <command>~/.config/openbox/rofi/bin/launcher</command>
-      </action>
-    </keybind>
-    <keybind key="W-n">
-      <action name="Execute">
-        <command>networkmanager_dmenu</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="A-F1"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>~/.config/openbox/rofi/bin/launcher</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
+    <!-- <keybind key="W-n"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>networkmanager_dmenu</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <keybind key="W-m">
       <action name="Execute">
         <command>~/.config/openbox/rofi/bin/music</command>
@@ -626,11 +626,11 @@
         <command>~/.config/openbox/rofi/bin/powermenu</command>
       </action>
     </keybind>
-    <keybind key="W-s">
-      <action name="Execute">
-        <command>~/.config/openbox/rofi/bin/screenshot</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="W-s"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>~/.config/openbox/rofi/bin/screenshot</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <keybind key="W-i">
       <action name="Execute">
         <command>~/.config/openbox/rofi/bin/network</command>
