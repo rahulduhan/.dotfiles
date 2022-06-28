@@ -585,11 +585,11 @@
         <command>~/.local/bin/wall</command>
       </action>
     </keybind>
-    <keybind key="W-Return">
-      <action name="Execute">
-        <command>alacritty</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="W-Return"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>alacritty</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <keybind key="W-f">
       <action name="Execute">
         <command>pcmanfm</command>
