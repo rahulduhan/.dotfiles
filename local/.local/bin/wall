@@ -1,2 +1,0 @@
-#!/bin/sh
-xwallpaper --zoom $HOME/.walls/$(ls $HOME/.walls/ | shuf -n 1)
