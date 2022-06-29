@@ -24,6 +24,10 @@ $TERMINAL -e $EDITOR
 #super + m
 $TERMINAL -e ncmpcpp
 
+## Emacs
+#super + o
+emacs
+
 ## Htop
 #control + alt + h
 htop
@@ -34,15 +38,19 @@ htop
 # alt + F1
 $HOME/.config/openbox/rofi/bin/launcher
 
-## Network Manager
+## Network Menu
 # super + n
 $HOME/.config/openbox/rofi/bin/network
 
-## Screenshot Manager
+## Power Menu
+# super + x
+$HOME/.config/openbox/rofi/bin/powermenu
+
+## Screenshot Menu
 # super + s
 $HOME/.config/openbox/rofi/bin/screenshot
 
-## Music Manager
+## Music Menu
 # super + shift + m
 $HOME/.config/openbox/rofi/bin/music
 
