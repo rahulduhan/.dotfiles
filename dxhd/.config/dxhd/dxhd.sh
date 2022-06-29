@@ -20,6 +20,14 @@ $BROWSER
 #super + e
 $TERMINAL -e $EDITOR
 
+## Ncmpcpp
+#super + m
+$TERMINAL -e ncmpcpp
+
+## Htop
+#control + alt + h
+htop
+
 ### Rofi 
 
 ## App Launcher
@@ -34,6 +42,24 @@ $HOME/.config/openbox/rofi/bin/network
 # super + s
 $HOME/.config/openbox/rofi/bin/screenshot
 
+## Music Manager
+# super + shift + m
+$HOME/.config/openbox/rofi/bin/music
+
+## Command Runner
+#super + r
+$HOME/.config/openbox/rofi/bin/runner
+
+### Others
+
+## Change Wallpaper 
+#control + alt + w
+wall
+
+## Kill a program
+#super + escape
+xkill
+ 
 ### Media Controls
 
 ## Increase Volume
