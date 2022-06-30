@@ -37,6 +37,7 @@ export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
 export WEECHAT_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/weechat"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
 export ELECTRUMDIR="${XDG_DATA_HOME:-$HOME/.local/share}/electrum"
+export GIT_CONFIG_GLOBAL="${XDG_CONFIG_HOME:-$HOME/.config}/git/config"
 
 # start the X server 
 startx "$XINITRC"

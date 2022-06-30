@@ -9,8 +9,6 @@
 	last = log -1 --stat
 	unstage = reset HEAD --
 	cached = diff --cached
-	d = difftool
-	c = clone
 [color]
 	ui = auto
 [credential]
