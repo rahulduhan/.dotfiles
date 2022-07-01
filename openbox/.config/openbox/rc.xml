@@ -818,6 +818,7 @@
     <submenuHideDelay>200</submenuHideDelay>
     <applicationIcons>no</applicationIcons>
   </menu>
+  <!-- ################################ Apps Settings ################################ -->
   <applications>
     <application class="*">
       <focus>yes</focus>
@@ -832,8 +833,26 @@
         <width>50%</width>
       </size>
     </application>
-    <application name="mpv">
+    <application class="mpv">
       <decor>no</decor>
+      <layer>above</layer>
+      <desktop>4</desktop>
+      <position force="yes">
+        <x>center</x>
+        <y>center</y>
+      </position>
+      </application>
+    <application class="librewolf" role="browser">
+    <desktop>3</desktop>
+    <maximized>yes</maximized>
     </application>
+    <application class="emacs*">
+    <desktop>2</desktop>
+    <maximized>yes</maximized>
+     <application class="obs*">
+    <desktop>10</desktop>
+    <maximized>yes</maximized>
+    </application>
+</application>
   </applications>
 </openbox_config>
