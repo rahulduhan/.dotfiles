@@ -11,5 +11,11 @@
 - [ ] Add more rofi scricpts
 - [ ] Integrate Picom
 - [ ] Ncmpcpp ueberzug fix
+- [ ] Switch from pamixr to amixer
+- [ ] Setup a proper screen shot utility -> Flameshot(! req a lot of qt stuff) / maim 
+- [ ] Setup a app tray
+- [ ] polybar openbox icons for windows as per app rules
+- [ ] proper documentation of dotfiles
+- [ ] make a script for dotfiles
 
  PR's are welcomed.
