@@ -11,7 +11,7 @@ uptime=$(uptime -p | sed -e 's/up //g')
 # Options
 if [[ "$DIR" == "powermenus" ]]; then
 	shutdown=""
-	reboot="ﰇ"
+	reboot=""
 	lock=""
 	suspend=""
 	logout=""
@@ -21,13 +21,13 @@ else
 	layout=`cat $HOME/.config/openbox/rofi/$DIR/powermenu.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/'`
 	if [[ "$layout" == "TRUE" ]]; then
                shutdown=""
-               reboot="ﰇ"
+               reboot=""
                lock=""
                suspend=""
                logout=""
 	else
 		shutdown=" Shutdown"
-		reboot="ﰇ Restart"
+		reboot=" Restart"
 		lock=" Lock"
 		suspend="  Sleep"
 		logout=" Logout"
