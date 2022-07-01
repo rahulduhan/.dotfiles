@@ -20,9 +20,9 @@ urgent=""
 if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 bitbucket.org || ping -c 1 github.com || ping -c 1 sourceforge.net) &>/dev/null; then
 	if [[ $STATUS == *"enable"* ]]; then
         if [[ $IFACE == e* ]]; then
-            connected=" Connected To Internet"
+            connected=" Connected To Internet"
         else
-            connected=" Connected To Internet"
+            connected=" Connected To Internet"
         fi
 	active="-a 0"
 	SSID="$_SSID"
@@ -36,9 +36,9 @@ else
 fi
 
 ## Icons
-bmon=" Open Bandwidth Monitor"
-launch_cli=" Open Network Manager"
-launch=" Open Connection Editor"
+bmon=" Open Bandwidth Monitor"
+launch_cli=" Open Network Manager"
+launch=" Open Connection Editor"
 
 options="$connected\n$bmon\n$launch_cli\n$launch"
 
