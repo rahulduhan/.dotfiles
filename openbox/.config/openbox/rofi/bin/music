@@ -6,25 +6,25 @@ rofi_command="rofi -theme $HOME/.config/openbox/rofi/$STYLE/mpd.rasi"
 # Buttons
 layout=`cat $HOME/.config/openbox/rofi/$STYLE/mpd.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/'`
 if [[ "$layout" == "TRUE" ]]; then
-	button_music=''
-	button_play=''
-	button_pause=''
-	button_stop=''
-	button_next=''
-	button_previous=''
-	button_repeat=''
-	button_shuffle=''
-	button_error=''
+	button_music=''
+	button_play='契'
+	button_pause=''
+	button_stop='栗'
+	button_next='怜'
+	button_previous='玲'
+	button_repeat=''
+	button_shuffle='列'
+	button_error=''
 else
-	button_music=' MPD'
-	button_play=' Play'
-	button_pause=' Pause'
-	button_stop=' Stop'
-	button_next=' Next'
-	button_previous=' Previous'
-	button_repeat=' Repeat'
-	button_shuffle=' Shuffle'
-	button_error=' Error'
+	button_music=' MPD'
+	button_play='契 Play'
+	button_pause=' Pause'
+	button_stop='栗 Stop'
+	button_next='怜 Next'
+	button_previous='玲 Previous'
+	button_repeat=' Repeat'
+	button_shuffle='列 Shuffle'
+	button_error=' Error'
 fi
 
 # Colors

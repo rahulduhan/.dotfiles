@@ -21,7 +21,7 @@ $BROWSER
 $TERMINAL -e $EDITOR
 
 ## Ncmpcpp
-#super + m
+#super + shift + m
 $TERMINAL -e ncmpcpp
 
 ## Emacs
@@ -51,7 +51,7 @@ $HOME/.config/openbox/rofi/bin/powermenu
 $HOME/.config/openbox/rofi/bin/screenshot
 
 ## Music Menu
-# super + shift + m
+# super + m
 $HOME/.config/openbox/rofi/bin/music
 
 ## Command Runner
