@@ -1,4 +1,3 @@
-# .dotfiles
 <img alt="" align="centre" src="https://dotfiles.github.io/images/dotfiles-logo.png"/>
 
 `UNDER DEVELOPMENT`
@@ -17,5 +16,3 @@
 - [ ] polybar openbox icons for windows as per app rules
 - [ ] proper documentation of dotfiles
 - [ ] make a script for dotfiles
-
- PR's are welcomed.
