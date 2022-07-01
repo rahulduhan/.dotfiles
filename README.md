@@ -16,3 +16,4 @@
 - [ ] polybar openbox icons for windows as per app rules
 - [ ] proper documentation of dotfiles
 - [ ] make a script for dotfiles
+- [ ] mirror repo to codeber.org
