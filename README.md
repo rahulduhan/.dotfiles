@@ -17,3 +17,4 @@
 - [ ] proper documentation of dotfiles
 - [ ] make a script for dotfiles
 - [ ] mirror repo to codeber.org
+- [ ] add dunst icons / images
