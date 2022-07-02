@@ -17,4 +17,4 @@ xwallpaper --zoom .walls/panther_art.jpg
 dunst &
 
 # st stuff 
-xrdb merge $HOME/.config/st/xresources
+xrdb merge $HOME/.local/share/repos/st/xresources

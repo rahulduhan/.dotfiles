@@ -33,12 +33,4 @@ alias \
 ls="logo-ls"
 
 # st stuff
-alias rel="xrdb merge $HOME/.config/st/xresources && kill -USR1 $(pidof st)"
-
- # Use $XINITRC variable if file exists.
-[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
-
-# sudo not required for some system commands
-for command in mount umount sv pacman updatedb su shutdown poweroff reboot ; do
-	alias $command="sudo $command"
-done; unset command     
+alias rel="xrdb merge $HOME/.local/share/repos/st/xresources"
