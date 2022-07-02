@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##---Basic binds
+jjjjjjjjjjjjjnds
 
 ### Launch Application
 
@@ -10,7 +10,7 @@ $TERMINAL
 
 ## File Manager
 #super + f
-pcmanfm
+$FILE
 
 ## Browser
 #super + w
@@ -30,7 +30,7 @@ emacs
 
 ## Htop
 #control + alt + h
-htop
+$TERMINAL -e htop
 
 ### Rofi 
 

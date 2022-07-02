@@ -5,7 +5,6 @@ alias \
 
 # Colorize commands
 alias \
-	ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi" \
@@ -29,6 +28,12 @@ alias \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner"
 
+
+# Logo-ls
+ls="logo-ls"
+
+# st stuff
+alias rel="xrdb merge $HOME/.config/st/xresources && kill -USR1 $(pidof st)"
 
  # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"

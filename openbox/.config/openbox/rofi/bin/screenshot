@@ -27,19 +27,19 @@ fi
 
 # notify and view screenshot
 notify_view () {
-	dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Copied to clipboard."
+	dunstify -u low --replace=699  "Copied to clipboard."
 	nsxiv ${dir}/"$file"
 	if [[ -e "$dir/$file" ]]; then
-		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Screenshot Saved."
+		dunstify -u low --replace=699 "Screenshot Saved."
 	else
-		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Screenshot Deleted."
+		dunstify -u low --replace=699  "Screenshot Deleted."
 	fi
 }
 
 # countdown
 countdown () {
 	for sec in `seq $1 -1 1`; do
-		dunstify -t 1000 --replace=699 -i /usr/share/archcraft/icons/dunst/timer.png "Taking shot in : $sec"
+		dunstify -t 1000 --replace=699 Taking shot in : $sec"
 		sleep 1
 	done
 }
@@ -63,7 +63,7 @@ shot10 () {
 }
 
 shotwin () {
-	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` | tee "$file" | xclip -selection clipboard -t image/png
+	cd ${dir} && maim -u -f png lip -selection clipboard -t image/png
 	notify_view
 }
 

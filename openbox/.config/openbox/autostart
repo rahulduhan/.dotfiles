@@ -15,3 +15,6 @@ xwallpaper --zoom .walls/panther_art.jpg
 
 # Notfication daemon
 dunst &
+
+# st stuff 
+xrdb merge $HOME/.config/st/xresources

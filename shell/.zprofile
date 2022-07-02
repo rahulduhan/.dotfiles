@@ -7,8 +7,12 @@ unsetopt PROMPT_SP
 
 # Default programs:
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 export BROWSER="librewolf"
+export TERM="alacritty"
+export FILE="pcmanfm"
+export IMG="nsxiv"
+export VID="mpv"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
