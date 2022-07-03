@@ -10,12 +10,14 @@ alias \
 	ccat="highlight --out-format=ansi" \
 	ip="ip -color=auto"
 
-# easy logo - ls
+# Logo-ls
+alias ls="logo-ls -D"
+
+# easy ls
 alias \
-        ls="logo-ls -D" \ 
-        l="logo-ls -lD" \
-        ll="logo-ls -alD" \
-        lr="logo-ls -R"
+        l="ls -lh" \
+        ll="ls -ah" \
+        lr="ls -R"
 
 
 # Verbosity and settings 
@@ -28,6 +30,8 @@ alias \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner"
+
+
 
 # st stuff
 alias rel="xrdb merge $HOME/.local/share/repos/st/xresources"
