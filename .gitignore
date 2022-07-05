@@ -7,8 +7,8 @@ mpd/.config/mpd/mpdstate
 local/.local/state/*
 zsh/.config/zsh/plugins/*
 zsh/.config/zsh/.zcompdump
-~/.config/nvim/LICENSE
-~/.config/nvim/init.lua
-~/.config/nvim/lua/
-~/.config/nvim/examples/
-~/.config/nvim/.*
+nvim/.config/nvim/LICENSE
+nvim/.config/nvim/init.lua
+nvim/.config/nvim/lua/
+nvim/.config/nvim/examples/
+nvim/.config/nvim/.*

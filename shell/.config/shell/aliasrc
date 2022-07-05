@@ -1,6 +1,7 @@
 # programs alias
 alias \
-        vi="nvim"\
+        v="nvim"\
+        vi="vim"
         fire="librewolf"
 
 # Colorize commands
